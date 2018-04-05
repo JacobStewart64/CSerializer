@@ -4,8 +4,7 @@ struct.
 
 RESTRICTIONS:
 
-This only works for structs (soon to be classes as well).
-The structs must be plain old data. It does not know the difference
+The structs/classes must be plain old data. It does not know the difference
 between data members and methods.
 
 It is not possible to properly generate code for a pointer to an array
@@ -16,9 +15,6 @@ must be declared on the stack with a fixed length.
 IN THE WORKS:
 
 I need it to support enums in the struct definitions.
-
-<slash>Support for classes soon.</slash>
-You can use classes now
 
 Generation of individual methods for each data member
 to write into the file just that data member.
