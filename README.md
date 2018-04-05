@@ -17,20 +17,8 @@ IN THE WORKS:
 
 I need it to support enums in the struct definitions.
 
-Support for classes soon.
+<slash>Support for classes soon.</slash>
+You can use classes now
 
 Generation of individual methods for each data member
 to write into the file just that data member.
-
-BUG:
-
-When handling pointers, it only allocates space for a char, not the correct
-type. Whoops. Will fix that later.
-
-Minor formatting issues. Too lazy to deal with it right now.
-
-
-Terrible Code:
-Yes it is, I did this in 2 days, and did not care to
-optimize the solution, format, etc. Sorry, at least it
-does something neat!
