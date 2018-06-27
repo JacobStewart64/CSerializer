@@ -109,7 +109,7 @@ const generate = () => {
                 }
                 else {
                     //generate an array put to
-                    const arrayputto = `\tfor (int i = 0; i < ${varname[1]}; i++)\n\t{\n\t\tos << e.${varname[0]}[i] << "\\n";\n\t}\n`;
+                    const arrayputto = `\tfor (int i = 0; i < ${varname[1]}; i++)\n\t{\n\t\tos << e.${varname[0]}[i];\n\t}\n\tos << "\\n";\n`;
                     outpart1 += arrayputto;
                 }
             }
